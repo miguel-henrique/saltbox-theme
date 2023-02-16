@@ -13,7 +13,11 @@ function showGoogleReviews(id, apikey) {
     request.send();
 }
 
-showGoogleReviews("ChIJ0WGkg4FEzpQRrlsz_whLqZs", "AIzaSyB-IzL2t8QQ5ErEd1fOFtqUPqi0QNPojyI");
+const id = "";
+const apikey= "";
+
+showGoogleReviews(id, apikey);
+
 
 /* End Google Reviews Request */
 

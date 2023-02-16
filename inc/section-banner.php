@@ -14,7 +14,7 @@
 					<p><strong>Location: </strong>Atlanta’s Industrial Upper Westside 1345 Seaboard Industrial Blvd</p>
 				<div>
 						<div class="stars-review"></div>
-						<div id="reviews"></div>
+						<div showGoogleReviews() id="reviews"></div>
 				</div>
 
 			</div>
