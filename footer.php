@@ -74,7 +74,7 @@
 
 						<div class="col footer-menu-col">
 							<h6>Resources</h6>
-							<ul class="navbar-nav footer-nav">
+							<ul class="navbar-nav">
 								<li>
 									<a class="nav-link footer-link" href="">Blog</a>
 								</li>
@@ -99,6 +99,9 @@
 
 		</section>
 	</footer><!-- #colophon -->
+
+
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

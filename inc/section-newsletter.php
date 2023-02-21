@@ -1,4 +1,4 @@
-<section id="newsletter" class="container-fluid">
+<section id="newsletter" class="container-fluid fadeInUp">
 
     <div class="container newsletter-container">
         
@@ -33,19 +33,19 @@
                    <p>Follow us on</p>
                 </div>
                <div class="icons-social-medias">
-                <a href="">
+                <a href="<?php get_home_url(); ?>">
                   <img loading="lazy" class="social-icon" src="<?php bloginfo('template_directory'); ?>/img/facebook.svg">
                 </a>
                    
-                <a href="">
+                <a href="<?php get_home_url(); ?>">
                  <img loading="lazy" class="social-icon" src="<?php bloginfo('template_directory'); ?>/img/instagram.svg">
                 </a>
                     
-                <a href="">
+                <a href="<?php get_home_url(); ?>">
                    <img loading="lazy" class="social-icon" src="<?php bloginfo('template_directory'); ?>/img/linkedin.svg">
                 </a>
 
-                <a href="">
+                <a href="<?php get_home_url(); ?>">
                   <img loading="lazy" class="social-icon" src="<?php bloginfo('template_directory'); ?>/img/twitter.svg">
                 </a>
                    

@@ -1,6 +1,6 @@
 
 <!-- Secondary menu -->
-<section class="container secondary-menu">
+<section class="container secondary-menu fadeInUp">
 		<div class="page-navigation">
 			<ul class="menu-links">
                 <a href="#warehouses">SPACES</a>

@@ -1,8 +1,8 @@
-<div id="team" class="container team-container">
+<div id="team" class="container team-container fadeInUp">
     
         
       <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h1 class="gallery-title">Gallery</h1>
+      <h2>Meet Our <span class="underline-yellow">New Team</span></h2>
         <div class="text-center">
           <button class="filter-btn" id="all" onclick="call(this.id)">all</button>
           <button class="filter-btn" id="2" onclick="call(this.id)">Category 2</button>
@@ -71,10 +71,10 @@
 
 
 
-<div id="team-mb" class="container team-container-mobile">
+<div id="team-mb" class="container team-container-mobile fadeInUp">
     <div class="row">
 
-    <h2>Meet Our New Team</h2>
+    <h2>Meet Our <span class="underline-yellow">New Team</span></h2>
 
         <swiper-container id="categories" navigation="true" space-between="5" slides-per-view="1" loop="true">
             <swiper-slide id="category-1" class="swiper-category-item">Category 1</swiper-slide>
@@ -129,7 +129,6 @@
 
 <script>
     const btnFilter = document.querySelectorAll('.filter-btn'); // select all button elements
-    console.log(btnFilter);
     let activeButton = null; // keep track of the currently active button
 
     btnFilter.forEach(button => {
@@ -151,10 +150,6 @@
 // Get the buttons and the elements container
 const nextBtn = document.querySelector("#categories").shadowRoot.querySelector("div.swiper-button-next")
 const prevBtn = document.querySelector("#categories").shadowRoot.querySelector("div.swiper-button-prev")
-
-nextBtn.style.color = "#101010";
-prevBtn.style.color = "#101010";
-
 
 const elements = document.querySelector('.members-swiper');
 

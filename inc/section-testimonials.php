@@ -1,4 +1,4 @@
-<section id="testimonial" class="container-fluid">
+<section id="testimonial" class="container-fluid fadeInUp">
 
     <div class="container testimonial-container">
         
@@ -52,7 +52,7 @@
     button.style.color = "#101010";
     button.style.border = "1px solid black";
     button.style.fontSize = "30px";
-    button.style.padding = "10px";
+    button.style.padding = "5px 8px";
     button.style.borderRadius = "20px";
 
     if(window.innerWidth < 768){
@@ -61,4 +61,10 @@
     });
 
 
+
+
+
 </script>
+
+
+

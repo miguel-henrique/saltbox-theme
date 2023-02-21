@@ -12,9 +12,11 @@
 					<p><strong>Availablity: </strong>Office Space Only</p>
 					<p><strong>Duration:  </strong>Monthly</p>
 					<p><strong>Location: </strong>Atlanta’s Industrial Upper Westside 1345 Seaboard Industrial Blvd</p>
-				<div>
+				<div class="reviews">
 						<div class="stars-review"></div>
-						<div showGoogleReviews() id="reviews"></div>
+						<?php get_template_part( 'inc/request', 'reviews'); ?>
+						
+						
 				</div>
 
 			</div>
@@ -31,3 +33,26 @@
 	</div>
 
 </section>
+
+
+<script>
+
+	
+const reviewsNavigation= [
+        document.querySelector("#swiper-reviews").shadowRoot.querySelector("div.swiper-button-next"),
+        document.querySelector("#swiper-reviews").shadowRoot.querySelector("div.swiper-button-prev")
+    ]
+
+    reviewsNavigation.forEach(button => {
+    button.style.color = "#101010";
+    button.style.border = "1px solid black";
+    button.style.fontSize = "30px";
+    button.style.padding = "5px 8px";
+    button.style.borderRadius = "20px";
+
+    if(window.innerWidth < 768){
+        button.style.top = "90%";
+    }
+    });
+
+</script>
